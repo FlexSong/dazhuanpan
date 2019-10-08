@@ -1,0 +1,246 @@
+
+.beijing{
+    background-image: url(../images/beijing.png);
+  width: 100%;
+    height:9.88rem;
+    background-size: contain;
+    overflow: hidden;
+}
+.jilu{
+    margin-left: .54rem;
+    margin-top:.44rem;
+    color: yellow;  
+    letter-spacing: 2px;
+    font-size: .28rem;
+}
+.jilu_a{
+    text-decoration:underline;
+}
+.zhuanpan{
+    margin-top: .46rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 6.01rem;
+    width:6.01rem;
+    position: relative;
+}
+.zhuanpan1{
+    height: 6.01rem;
+    width:6.01rem;
+}
+.zhizhen{
+    position: absolute;
+    top:50%;
+    left:50%;
+    width: 1.76rem;
+    height: 2.21rem;
+    transform: translate(-50%, -50%); 
+}
+.jifen{
+    margin-top: .44rem;
+    /* width: 5.90rem; */
+    width:80%;
+    line-height: .73rem;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: .35rem;
+    display: flex;
+    justify-content:space-around;
+    border-bottom: 1px dashed #ef8486;
+    letter-spacing: 2px;
+}
+
+.choujiangmiaoshu{
+    color: #ef8486;
+    font-size: .28rem;
+    line-height: .53rem;
+    width:5.80rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    letter-spacing: 2px;
+    /* margin-bottom: 0.96rem; */
+}
+.footer{
+    font-size: .26rem;
+    position: relative;
+    padding-top: .58rem;
+    box-sizing: border-box;
+}
+.footer_jifen{
+    color:red;
+}
+.footer1{
+    line-height: .91rem;
+    width:6.64rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px dashed #e8e8e8;
+}
+.footer_jiu{
+    width:.63rem;
+    height: .63rem;
+    vertical-align: middle;
+    margin-left: .14rem;
+    margin-right: .25rem;
+}
+.footer_time{
+    /* margin-left: 1.70rem; */
+    float: right;
+    color: #aeaeae;
+}
+.footer_logo{
+    margin-top: .47rem;
+    width: 3.85rem;
+    height: .91rem;
+    background-image: url(/images/dibulog.png);
+    background-size: contain;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: .37rem;
+}
+.footer_mingdan{
+    position: absolute;
+    top:-0.345rem;
+    left: 2.3rem;
+    width: 2.81rem;
+    line-height: .69rem;
+    height: .69rem;
+    text-align: center;
+    border: 3px solid #c32124;
+    border-radius: 1.2rem;
+    color: #c32124;
+    font-size: .32rem;
+    font-weight: 900;
+    z-index: 2;
+    background-color: #ffffff;
+}
+/* 积分弹框 */
+.dati_box{
+    position: absolute;
+    top:-5%;
+    left:7%;
+    z-index: 2;
+}
+.datijifen{
+   text-align: center;
+    width:5.18rem;
+    height:5.54rem;
+    z-index: 2;
+    background-image: url(/images/datijifen.png);
+   background-size: contain;
+   overflow: hidden;
+}
+.dati_p1{
+    color: red;
+    font-size: .34rem;
+    line-height: .51rem;
+    margin-top: 2.73rem;
+}
+.dati_p2{
+    color: red;
+    font-size: .34rem;
+    line-height: .51rem;
+}
+.dati_p2{
+    color: red;
+    font-size: .34rem;
+    line-height: .51rem;
+}
+.dati_p3{
+    color: black;
+    font-size: .21rem;
+    line-height: 1.66rem;
+    margin-bottom: .13rem;
+}
+.jifenduihuan{
+    width: 2.50rem;
+    height: 0.87rem;
+    margin-top: .23rem;
+}
+.zailai{
+    width: 2.50rem;
+    height: 0.87rem;
+    margin-top: .23rem;
+}
+.guanbi{
+    position: absolute;
+    width: 0.7rem;
+    height: 0.7rem;
+    right: 0;
+}
+/* 红包弹框 */
+.hongbao_box{
+    position:absolute;
+    top:6%;
+    left:17%;
+    z-index: 2;
+    width: 3.83rem;
+}
+.hongbao{
+    background-image: url(/images/hongbao.png);
+    width: 3.83rem;
+    height: 5.20rem;
+    background-size: contain;
+    text-align: center;
+    overflow: hidden;
+}
+
+.zailaicenter{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.hongbao_p1{
+    margin-top: 2.33rem;
+    color: #ffffff;
+    font-size: .4rem;
+    line-height: .62rem;
+    font-weight: 900;
+}
+.hongbao_p2{
+    line-height: .77rem;
+    color: yellow;
+    font-size: .55rem;
+    font-weight: 900;
+}
+.hongbao_p3{
+    line-height: .51rem;
+    font-size: .41rem;
+    color: #ffffff;
+    font-weight: 900;
+}
+.hongbao_p4{
+    line-height: .90rem;
+    font-size: .20rem;
+    margin-bottom: .4rem;
+}
+/* 记录框 */
+.jilukuang{
+    position: absolute;
+    width: 5.18rem;
+    height: 5.54rem;
+    top:7%;
+    left: 16%;
+    z-index: 2;
+    font-size: .2rem;
+    background-image: url(/images/datijifen.png);
+    background-size: contain;
+}
+/* .jilu_p1{
+    margin-top: .3rem;
+} */
+.jilukuang_ul{
+    position: absolute;
+    top:42%;
+    color: red;
+}
+.jilukuang_ul li{
+    margin-bottom: 2px;
+    /* margin-left: 5px; */
+    font-size: .25rem;
+}
+.jilukuang_ul li span{
+    margin-left: .10rem;
+}

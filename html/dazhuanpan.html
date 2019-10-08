@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>大转盘</title>
+    <link href="/css/reset.css" type="text/css" rel="stylesheet"/>
+    <link href="../css/dazhuanpan.css" type="text/css" rel="stylesheet"/>
+    <script src="/js/font.js"></script>
+    <script src="/js/jq1.7.js"></script>
+    
+</head>
+<body>
+    <div class="beijing">
+        <div class="jilukuang"  style="display: none">
+          <ul class="jilukuang_ul">
+              <!-- <li>
+                  <span>李磊</span>
+                  <span>获得官微50积分</span>
+                  <span>2019/05/21</span>
+              </li>
+              <li>
+                    <span>李磊</span>
+                    <span>获得官微50积分</span>
+                    <span>2019/05/21</span>
+            </li> -->
+          </ul>
+        </div>
+        <div class="jilu">
+            <a href="#" class="jilu_a" onclick="jiluFunc()">我的中奖纪录</a>
+        </div>
+        <div class="zhuanpan">
+            <!-- 积分弹框 -->
+            <div class="dati_box" style='display: none'>
+            <div class="datijifen">
+                <p class="dati_p1">恭喜你</p>
+                <p class="dati_p2"></p>
+                <p class="dati_p3">*积分可用来兑换礼品哦</p>
+            </div>
+            <img src="/images/jifenduihuan.png" alt="" class="jifenduihuan">
+            <img src="/images/zailai.png" alt="" class="zailai" onclick="zailaiFunc()">
+        </div>
+        <!-- 红包弹框 -->
+            <div class="hongbao_box" style='display: none'>
+                <div class="hongbao">
+                    <p class="hongbao_p1">恭喜你获得</p>
+                    <p class="hongbao_p2">1元</p>
+                    <p class="hongbao_p3">微信红包一个</p>
+                    <p class="hongbao_p4">*返回消息列表[微信支付]查看即可</p>
+                </div>
+                <img src="/images/zailai.png" alt="" class="zailai zailaicenter" onclick="zailaiFunc()">
+            </div>
+            <img src="/images/zhuanpan.png" alt="转盘" class="zhuanpan1">
+            <img src="/images/zhizhen.png" alt="指针" class="zhizhen" >
+        </div>
+        <div class="jifen">
+            <span>我的积分</span>
+            <span style='color: yellow' class="jifenzhi">110</span>
+            <span>分</span>
+            <span>可抽奖</span>
+            <span style='color:yellow' class="cishu"></span>
+            <span>次</span>
+        </div>
+        <div class="choujiangmiaoshu">
+            每消耗30积分可以抽奖一次,不限次数.
+        </div>
+    </div>
+    <div class="footer">
+        <div id="box" style='overflow: hidden;height: 1.5rem;' onmouseover="over()">
+        <div id="footer_box">
+        <div class="footer1 cl">
+            <img src="/images/hongtan.png" alt="" class="footer_jiu">
+            <span>恭喜酒鬼君获得</span> 
+            <span class="footer_jifen">666积分</span>
+            <span class="footer_time">1分钟</span>
+        </div>
+        <div class="footer1 cl">
+            <img src="/images/hongtan.png" alt="" class="footer_jiu">
+            <span>恭喜酒鬼君获得</span> 
+            <span class="footer_jifen">666积分</span>
+            <span class="footer_time">1分钟</span>
+        </div>
+    </div>
+    <div id="footer_box1"></div>
+</div>
+        <div class="footer_logo"></div>
+        <div class="footer_mingdan">中奖名单</div>
+    </div>
+</body>
+<script src="/js/dazhuanpan.js"></script>
+</html>
